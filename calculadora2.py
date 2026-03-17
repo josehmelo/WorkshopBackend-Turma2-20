@@ -18,7 +18,7 @@ def registrar(num1, operador, num2, resultado):
     historico.append(f"{num1} {operador} {num2} = {resultado}")
 
 while True:
-    num1 = float(input("Insira o primeiro número ('historico' ou 'sair'): "))
+    num1 = float(input("Insira o primeiro número (ou 'sair'): "))
     num2 = float(input("Insira o segundo número: "))
     operador = input("Insira a operação (+, -, *, /, histórico): ")
 
